@@ -13,20 +13,9 @@ class HomePage extends Component {
     getUsersApi();
   }
 
-
-  componentDidUpdate(prevProps, prevState, snapshot) {
-    console.log(prevProps, 'prev-props');
-    console.log(this.props, 'new props');
-  }
-
   handleClick = () => {
     console.log('handle click');
   };
-
-  // useEffect(() => {
-  //   console.log('useEffect');
-  //   // getUsersApi();
-  // });
 
   render() {
     const {userInfo = []} = this.props || {};

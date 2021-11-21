@@ -49,7 +49,6 @@ class carousel extends Component {
 
   render() {
 
-    console.log('suraj');
     return (
       <React.Fragment>
         <div className="slideshow-container">
