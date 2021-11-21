@@ -15,13 +15,6 @@ const Header = () => {
         <div>Home Page</div>
       </Link>
 
-      {/*<Link to='/editpost'>*/}
-      {/*  <div>Edit Posts</div>*/}
-      {/*</Link>*/}
-      {/*<Link to='/showphotos'>*/}
-      {/*  <div>Show Photos</div>*/}
-      {/*</Link>*/}
-
       <div onClick={logout}>Log out</div>
     </div>
   );
